@@ -34,15 +34,26 @@ main {
 footer {
     background-color: #00a69c;
     text-align: center;
-    padding: 2rem;
+    padding: 2em;
 }
-h1, h2, h3 {
+h1, h2 {
     font-family: "RatherLoud";
     color: #3c3c3b;
     max-width: 90vw;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0.2em 0;
+}
+h1 {
+    font-size: 6rem;
+}
+h2 {
+    font-size: 3.6rem;
+    opacity: 0.85;
 }
 p {
-
+    margin: .5em 1em;
+    max-width: 25em;
 }
 .tag {
     margin: 2rem;
@@ -81,7 +92,8 @@ p {
     transition: all .1s ease-in 0s;
 }
 
-.details {
+.details,
+.main-cta {
     display: flex;
     align-self: center;
     flex-direction: column;
@@ -92,11 +104,10 @@ p {
     padding-bottom: 2em;
 }
 
-.details p {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    width: 23em;
+.main-cta {
+    margin-top: 2em;
 }
+.main-cta .button,
 .details .button {
     margin: 1em 0;
 }
@@ -118,11 +129,11 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    margin-top: 2em;
+    padding: 4em 2em;
     font-size: 1.6rem;
     flex-wrap: wrap;
-    background-color: #CCBEA8;
-    opacity: 0.8;
+    background-color: RGBA(204, 190, 168, 0.5);
 }
 .secondary-ctas .button {
     margin: 1rem;
