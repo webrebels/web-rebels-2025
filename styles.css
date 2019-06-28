@@ -126,18 +126,16 @@ p {
     text-decoration: none;
 }
 .secondary-ctas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 2em;
     padding: 4em 2em;
     font-size: 1.6rem;
-    flex-wrap: wrap;
     background-color: RGBA(204, 190, 168, 0.5);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-gap: 2rem;
+    justify-content: center;
 }
-.secondary-ctas .button {
-    margin: 1rem;
-}
+
 .button {
     background-color: #00a69c;
     border-radius: 4px;
@@ -163,8 +161,6 @@ p {
 .button--inverted {
     background-color: rgba(255,255,255,0.8);
     color: #00a69c;
-    margin-bottom: 3.2rem;
-    margin-top: 1.6rem;
 }
 
 .button--inverted:focus,
