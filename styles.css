@@ -61,6 +61,7 @@ p {
     position: relative;
     font-weight: normal;
     color: #3c3c3b;
+    opacity: 1;
 }
 
 .menu {
