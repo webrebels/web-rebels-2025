@@ -1,4 +1,5 @@
 {
+  "name": "2019.webrebels.org",
   "scripts": {
     "start": "live-server --port=8080"
   },
