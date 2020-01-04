@@ -4,6 +4,6 @@
     "start": "live-server --port=8080"
   },
   "dependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.1"
   }
 }
