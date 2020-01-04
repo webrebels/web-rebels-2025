@@ -112,6 +112,9 @@ p {
 .details .button {
     margin: 1em 0;
 }
+.cta-btns {
+    margin: 1em;
+}
 
 .logo {
     display: block;
