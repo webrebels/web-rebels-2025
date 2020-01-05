@@ -108,12 +108,20 @@ p {
 .main-cta {
     margin-top: 2em;
 }
-.main-cta .button,
 .details .button {
     margin: 1em 0;
 }
 .cta-btns {
     margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cta-btns div {
+    display: flex;
+    margin: 1px auto;
+}
+.cta-btns .button {
+    margin: 2.5px;
 }
 
 .logo {
