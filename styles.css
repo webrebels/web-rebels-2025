@@ -152,6 +152,12 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.5
 }
 
+.simple-page img {
+  display: block;
+  max-width: 1200px;
+  margin: 1rem auto 2rem;
+}
+
 h1 {
   font-size: 5rem;
 }
