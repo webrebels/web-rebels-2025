@@ -1590,7 +1590,7 @@ svg {
   }
 }
 
-.schedule-title {
+.section-heading.schedule-title {
   font-size: 2.2rem
 }
 
@@ -1689,4 +1689,123 @@ svg {
 .map {
   max-width: 42rem;
   margin: 2rem auto;
+}
+
+.schedule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 5rem auto 5rem
+}
+
+.schedule-day {
+  width: 45%
+}
+
+@media (max-width: 700px) {
+  .schedule-day {
+      width:100%
+  }
+}
+
+.section-heading.schedule-title {
+  font-size: 2.2rem
+}
+
+.schedule .event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.8rem
+}
+
+.schedule .event .when {
+  font-size: 1.2rem;
+  width: 6rem;
+  padding-right: 1rem;
+  font-family: Bergen Mono,monospace
+}
+
+.schedule .event .what {
+  width: 100%;
+  font-family: Bergen Mono,monospace
+}
+
+.schedule .event .what h4 {
+  font-family: Gordita,sans-serif
+}
+
+.schedule .event-title {
+  margin: 0;
+  line-height: 1.3;
+  margin-bottom: .2rem;
+  text-align: left;
+  font-size: 1.4rem
+}
+
+.schedule .event.info {
+  border-top: 2px solid #fd009d;
+  border-bottom: 2px solid #fd009d;
+  padding: .8rem 0
+}
+
+.schedule .event.info .event-title {
+  color: #fd009d
+}
+
+.schedule .event.pause {
+  border-top: 2px solid #fff444;
+  border-bottom: 2px solid #fff444;
+  padding: .8rem 0
+}
+
+.schedule .event.pause .event-title {
+  color: #fff444
+}
+
+.schedule .event.party {
+  border-top: 2px solid #fd009d;
+  border-bottom: 2px solid #fd009d;
+  padding: .8rem 0
+}
+
+.schedule .event.party .event-title {
+  color: #fd009d
+}
+
+.jump {
+  font-size: .8rem;
+  margin-bottom: 2rem;
+  text-align: right;
+  display: none
+}
+
+@media (max-width: 700px) {
+  .jump {
+      display:block
+  }
+
+  .schedule-day {
+      margin-bottom: 4rem
+  }
+
+  .schedule-day h2 {
+      font-size: 1.8rem
+  }
+}
+
+.light-theme .schedule .event.pause {
+  border-top: 2px solid #f47c31;
+  border-bottom: 2px solid #f47c31;
+  padding: .5rem 0
+}
+
+.light-theme .schedule .event.pause .event-title {
+  color: #f47c31
 }
