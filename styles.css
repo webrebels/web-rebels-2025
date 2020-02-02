@@ -289,6 +289,10 @@ p a {
   color: #000
 }
 
+.light-theme .simple-page h2 {
+  color: #000000;
+}
+
 .light-theme .simple-page p a,.light-theme a {
   color: #3400e0
 }
@@ -351,7 +355,7 @@ p a {
   width: 36rem;
   max-width: 100%;
   margin: 1rem auto 2rem;
-  padding: 1.2rem 1.5rem 1rem
+  padding: 1.2rem 1.5rem 1rem;
 }
 
 .tickets:hover {
@@ -378,11 +382,15 @@ p a {
   }
 }
 
+.light-theme .tickets {
+  color: #fd009d;
+}
+
 .light-theme .tickets:hover {
   -webkit-box-shadow: 0 0 4px #fd009d,inset 0 0 4px #fd009d;
   box-shadow: 0 0 4px #fd009d,inset 0 0 4px #fd009d;
   text-shadow: 0 0 2px #fd009d;
-  color: #fd009d
+  color: #fd009d;
 }
 
 .speaker-list {
@@ -726,6 +734,10 @@ p a {
   margin-bottom: 1rem
 }
 
+.button {
+  cursor: pointer;
+}
+
 .hero-image {
   width: 100%;
   max-width: 1200px;
@@ -1048,7 +1060,13 @@ svg {
 }
 
 .light-theme .main-nav .site-nav .menu-toggle,.light-theme .main-nav .site-nav ul {
-  background: linear-gradient(45deg,#921083,#f47c31)
+  background: linear-gradient(45deg,#fd009d,#f47c31);
+}
+.light-theme .main-nav .site-nav li a {
+  color: #000000;
+}
+.light-theme .main-nav .site-nav .menu-toggle svg {
+  stroke: #000000;
 }
 
 .newsletter {
@@ -1169,8 +1187,8 @@ svg {
   align-items: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  max-width: 36rem;
-  margin: 9rem auto 1rem
+  max-width: 60rem;
+  margin: 9rem auto 1rem;
 }
 
 .some p {
@@ -1183,7 +1201,36 @@ svg {
   font-size: 2rem;
   font-weight: 800;
   line-height: 1;
-  border-bottom: .2rem solid #2be1a4
+}
+.some a span {
+  border-bottom: .2rem solid #2be1a4;
+}
+.some-icon {
+  vertical-align: middle;
+  width: 3rem;
+  height: 3rem;
+  margin-right: .5rem;
+
+  display: none;
+}
+.some-icon .fill-circle {
+  fill: #2be1a4;
+}
+.light-theme .some-icon .fill-circle {
+  fill: #000000;
+}
+.some.icons .some-icon, .some.icons-only .some-icon {
+  display: inline-block;
+}
+.some.icons-only .some-icon {
+  width: 4rem;
+  height: 4rem;
+}
+.some.icons-only span {
+  display: none;
+}
+.some.icons-only {
+  max-width: 20rem;
 }
 
 .footer-nav {
@@ -1228,7 +1275,6 @@ svg {
 
 .light-theme .some a {
   color: #000;
-  border-bottom: .2rem solid #000
 }
 
 .oslo {
@@ -1638,4 +1684,9 @@ svg {
 
 .light-theme .schedule .event.pause .event-title {
   color: #f47c31
+}
+
+.map {
+  max-width: 42rem;
+  margin: 2rem auto;
 }
