@@ -1,3 +1,9 @@
+function toggleMenu() {
+  document.getElementById("site-nav").classList.toggle('open');
+}
+document.getElementById("menu-toggle").addEventListener("click", toggleMenu);
+
+
 var lightTheme;
 
 if (typeof localStorage.lightTheme !== "undefined") {

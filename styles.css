@@ -112,12 +112,6 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center
 }
 
-@media (max-width: 700px) {
-  h1.page-title {
-      font-size:4rem
-  }
-}
-
 .simple-page h2,.simple-page h3,.simple-page h4,.simple-page h5,.simple-page h6 {
   max-width: 32rem;
   text-align: left;
@@ -159,7 +153,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 5rem
+  font-size: 5rem;
 }
 
 h1.page-title {
@@ -333,6 +327,9 @@ p a {
 }
 
 @media (max-width: 700px) {
+  h1.page-title {
+      font-size:3rem;
+  }
   h2.section-heading {
       font-size:3.5rem
   }
@@ -793,12 +790,12 @@ p a {
 
 @media (max-width: 700px) {
   .index-title {
-      font-size:4.5rem;
+      font-size:4rem;
       -webkit-text-stroke: .08rem #2be1a4;
       text-stroke: .08rem #2be1a4
   }
 
-  .index-subtitle {
+  h2.subtitle span {
       font-size: 1.3rem
   }
 
@@ -839,7 +836,6 @@ p a {
 @media (max-width: 1000px) {
   .light-theme .index-title {
       padding:2.5rem 0 2rem;
-      font-size: 5.5rem;
       border-top: none
   }
 }
@@ -1060,13 +1056,13 @@ svg {
 }
 
 .light-theme .main-nav .site-nav .menu-toggle,.light-theme .main-nav .site-nav ul {
-  background: linear-gradient(45deg,#fd009d,#f47c31);
+  background: linear-gradient(45deg,#921083,#f47c31);
 }
 .light-theme .main-nav .site-nav li a {
-  color: #000000;
+  color: #ffffff;
 }
 .light-theme .main-nav .site-nav .menu-toggle svg {
-  stroke: #000000;
+  stroke: #ffffff;
 }
 
 .newsletter {
@@ -1512,10 +1508,10 @@ svg {
 }
 
 @media (max-width: 700px) {
-  .speaker {
-      display:block;
-      padding: 0 1rem;
-      text-align: center
+  .speaker, .speaker-page .speaker {
+    display: block;
+    padding: 0 1rem;
+    text-align: center;
   }
 
   .speaker-page .speaker .speaker-image {
