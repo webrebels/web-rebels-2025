@@ -155,7 +155,7 @@
 
     <!-- footer content -->
     <footer class="site-footer">
-      <div class="newsletter" :class="{ closed: closed }">
+      <div class="newsletter" id="newsletter">
         <h2 class="section-heading">Sign up to our newsletter</h2>
         <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
@@ -176,7 +176,7 @@
           </form>
         </div>
         <!--End mc_embed_signup-->
-        <div class="close" @click="closed = !closed">&times;</div>
+        <div class="close" id="close-newsletter">&times;</div>
       </div>
 
       <!-- social media links -->

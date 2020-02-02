@@ -1114,17 +1114,17 @@ svg {
 }
 
 .newsletter .close {
-  display: none;
+  display: block;
   position: absolute;
   top: .5rem;
   right: .5rem;
   font-size: 2rem;
   line-height: 1;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .newsletter.closed {
-  visibility: hidden
+  visibility: hidden;
 }
 
 .newsletter h2.section-heading {
