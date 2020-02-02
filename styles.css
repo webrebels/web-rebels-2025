@@ -601,6 +601,63 @@ p a {
   filter: none
 }
 
+.package-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin: 5rem auto;
+}
+.package {
+  width: 49%;
+  min-width: 20rem;
+  background: #ffffff;
+  color: #000000;
+  padding: 3rem 5rem;
+  margin: 1rem 0;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.package h2, .package p {
+  margin: 0;
+}
+.package h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+.diamond {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 70px solid #fff444;
+  position: absolute;
+  top: -6rem;
+  left: .5rem;
+}
+.diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 70px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 70px solid #b6ab0d;
+}
+.diamond.silver {
+  border-bottom: 70px solid #ccc;
+}
+.diamond.silver:after {
+  border-top: 70px solid #999;
+}
+.diamond.bronze {
+    border-bottom: 70px solid #F47C31;
+}
+.diamond.bronze:after {
+  border-top: 70px solid #d1631e;
+}
+
 .intro {
   font-family: "Bergen Mono",monospace;
   margin: .5rem 0 4rem;
