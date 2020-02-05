@@ -619,6 +619,9 @@ p a {
   position: relative;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+.package.gold {
+  margin: auto;
+}
 .package h2, .package p {
   margin: 0;
 }
