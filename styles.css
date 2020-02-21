@@ -602,6 +602,17 @@ p a {
   filter: none
 }
 
+.sb1u-bf4ever {
+    background: url("/assets/sparebank1-neg.svg") no-repeat 50% 50%;
+    text-indent: 200%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.light-theme .sb1u-bf4ever {
+    background-image: url("/assets/sparebank1.svg");
+}
+
 .package-list {
   display: flex;
   flex-wrap: wrap;
