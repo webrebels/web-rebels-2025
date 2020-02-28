@@ -98,8 +98,8 @@ section {
   margin-bottom: 6rem
 }
 
-img {
-  max-width: 100%
+img, .venue-img {
+  max-width: 100% !important;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -1735,6 +1735,18 @@ svg {
 .map {
   max-width: 42rem;
   margin: 2rem auto;
+}
+.map .iframe-wrapper {
+  margin-bottom: 10px;
+}
+.map ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.map ul li {
+  display: inline;
+  padding-right: 10px;
 }
 
 .schedule {
