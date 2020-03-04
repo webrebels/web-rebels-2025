@@ -1,5 +1,6 @@
 {
-  "name": "2019.webrebels.org",
+  "name": "2020.webrebels.org",
+  "license" : "MIT",
   "scripts": {
     "start": "live-server --port=8080"
   },
