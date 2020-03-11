@@ -73,40 +73,6 @@
             2020
           </span>
         </div>
-        <div class="site-nav" id="site-nav">
-          <div class="menu-toggle" id="menu-toggle">
-            <svg class="menu-toggle-icon open-icon" width="45px" height="41px" viewBox="0 0 45 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                    <line x1="2.68222158" y1="2.05635441" x2="42.6822216" y2="2.05635441" id="Line" stroke="#FFFFFF" stroke-width="4"></line>
-                    <line x1="2.68222158" y1="20.0563544" x2="42.6822216" y2="20.0563544" id="Line" stroke="#FFFFFF" stroke-width="4"></line>
-                    <line x1="2.68222158" y1="38.0563544" x2="42.6822216" y2="38.0563544" id="Line" stroke="#FFFFFF" stroke-width="4"></line>
-                </g>
-            </svg>
-            <svg class="menu-toggle-icon close-icon" width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                    <line x1="3.23725131" y1="3.29360572" x2="38.7627487" y2="38.8191031" id="Line-2" stroke="#FFFFFF" stroke-width="4"></line>
-                    <line x1="38.7627487" y1="3.08622769" x2="3.23725131" y2="38.6117251" id="Line-3" stroke="#FFFFFF" stroke-width="4"></line>
-                </g>
-            </svg>
-            <span>Menu</span>
-          </div>
-          <ul>
-            <li @click="open = false"><a href="/">Home</a></li>
-            <!-- <li @click="open = false"><a href="/schedule">Schedule</a></li> -->
-            <!-- <li @click="open = false"><a href="/speakers">Speakers</a></li> -->
-            <li @click="open = false"><a href="/info">Info</a></li>
-            <li @click="open = false"><a href="/about">About</a></li>
-            <li class="moon" id="moon">
-              <div class="graphic moon">
-                <svg viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <path d="M5.32326309,3.57637938 C5.32326309,6.59528903 7.7705729,9.04259885 10.7894826,9.04259885 C12.1889803,9.04259885 12.9770075,7.91056569 13.684501,8.35579428 C14.5391579,10.3640276 11.0743237,13.7883047 7.50475345,13.7883047 C3.64961757,13.7883047 0.524412463,10.6630996 0.524412463,6.80796374 C0.524412463,3.19859967 3.37179868,-0.265803585 5.72634776,0.341004774 C6.09896225,0.887271565 5.32326309,2.14376863 5.32326309,3.57637938 Z" id="Path" fill="#FFFFFF"></path>
-                    </g>
-                </svg>
-              </div>
-            </li>
-          </ul>
-        </div>
       </nav>
     </header>
     <!-- end header with menu and logo -->
@@ -117,18 +83,21 @@
       <p class="intro"><a href="/about">Web Rebels</a> is a non-profit community conference for anyone who loves developing applications and services using web technology. Two days, one track, 16 speakers.</p>
 
       <section>
-        <h1>Web Rebels 2020<br>is cancelled</h1>
+        <h1 class="page-title">Web Rebels 2020<br>is cancelled</h1>
         <p>On the 10th of March the Norwegian Institute of Public Health advised that all events with 500 attendees must be cancelled or postponed and all events with more than 100 attendees should consider cancelling or postponing due to the world wide COVID-19 epidemic [<a href="https://www.fhi.no/nettpub/coronavirus/rad-og-informasjon-til-andre-sektorer-og-yrkesgrupper/anbefalinger-ved--store-arrangementer-knyttet-til-koronasmitte-i-norge/">link</a>]. We are taking this advice very seriously, and  have with great sadness decided to cancel Web Rebels 2020.</p>
         <p>Web Rebels is a small non-profit conference with about 300 attendees organized by a handful of volunteers. We care strongly about our attendees’ well-being, and we put great effort into delivering a high quality conference. Due to the uncertainty of the current situation we feel we might not be able to meet the standards that we know our attendees expect and keep everyone safe.</p>
         <p>We fully understand that this is a big disappointment to all of you who have bought tickets and have submitted to our CFP. So it is for us, but we promise that we will be back even stronger in 2021!</p>
         <p>We are already working with our venue and suppliers to secure the dates for Web Rebels 2021.</p>
 
-        <p>- For ticket holders:<br>If you are a ticket holder we will reimburse you the full amount of your ticket. All tickets will be reimbursed in the comming days.</p>
+        <h2>For ticket holders</h2>
+        <p>If you are a ticket holder we will reimburse you the full amount of your ticket. All tickets will be reimbursed in the comming days.</p>
         <p>We understand that this can have financial implications for those of you who are travelling to attend. We are sadly not able to compensate for any loss you might have due to your travel or stay in Oslo. Please check with your airline, your hoteland your travel insurance.</p>
 
-        <p>- For speakers:<br>Due to the cancellation, all CFPs are declined. There will be a new CFP process for 2021.</p>
+        <h2>For speakers</h2>
+        <p>Due to the cancellation, all CFPs are declined. There will be a new CFP process for 2021.</p>
 
-        <p>- For sponsors:<br>Any paid for sponsor packages will be reimbursed in full.</p>
+        <h2>For sponsors</h2>
+        <p>Any paid for sponsor packages will be reimbursed in full.</p>
 
         <p>We are deeply sorry about this! We hope that you and those close to you stay healthy during this situation.</p>
 
@@ -157,31 +126,6 @@
         </div>
       </section> -->
       <!-- end speaker list -->
-
-      <!-- sponsor list (named friends to trick adblockers)
-      use class "friend-logo" on images, and add class "color" for logos that are not black and white. a grayscale filter will be applied to logo images without the class "color", and inverted for the dark version of the page, while logos with color will be left alone :) -->
-      <section class="friends index">
-        <h2 class="section-heading">Sponsors</h2>
-        <p class="lead">Web Rebels would not be possible without our awesome sponsors.</p>
-        <div class="friend-list">
-          <a href="https://www.webstep.no/?utm_campaign=wr2020&utm_source=webrebels&utm_content=footer" class="friend">
-            <img class="friend-logo" src="/assets/webstep.svg" />
-          </a>
-          <a href="https://www.finn.no/jobbifinn/?utm_campaign=wr2020&utm_source=webrebels&utm_content=footer" class="friend">
-            <img class="friend-logo color" src="/assets/finn.svg" />
-          </a>
-          <a href="https://www.cisco.no?utm_campaign=wr2020&utm_source=webrebels&utm_content=footer" class="friend">
-            <img class="friend-logo color" src="/assets/cisco.svg" />
-          </a>
-          <a href="https://sparebank1.dev/?utm_campaign=wr2020&utm_source=webrebels&utm_content=footer" class="friend sb1u-bf4ever">
-              SpareBank 1 Utvikling
-          </a>
-        </div>
-        <a href="/sponsors" class="button">Become a sponsor of Web Rebels 2020</a>
-      </section>
-      <!-- end sponsor list -->
-
-
 
     </main>
     <!-- end main landing page content -->
